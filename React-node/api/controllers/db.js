@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
   host: 'mysql', // Nome do serviço MySQL no Docker Compose
   user: 'root',
   password: 'root',
-  database: 'mydatabase'
+  database: 'crud'
 });
 
 connection.connect(err => {
